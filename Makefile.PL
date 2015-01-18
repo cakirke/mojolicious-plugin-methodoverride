@@ -15,5 +15,9 @@ perl_version    '5.10';
 
 auto_install;
 
+makemaker_args(
+    dist => { TAR => 'gtar' },
+);
+
 WriteAll;
 
